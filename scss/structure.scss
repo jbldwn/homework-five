@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // border: red 2px solid;
+}
+html,
+body {
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+#margin {
+  width: $min-width;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(fonts/GillSans.ttc);
+}
+
+@font-face {
+  font-family: Nova;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+button {
+  font-family: Gill;
+  text-transform: uppercase;
+  background-color: $site-blue;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+  color: $site-white;
+}
+@media only screen and (max-width: 1060px) {
+  #margin {
+    width: 100%;
+    padding: 25px;
+  }
+}

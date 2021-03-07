@@ -1,0 +1,37 @@
+#white-nav {
+  max-width: 1280px;
+  height: 60px;
+  margin: 30px 25px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $site-white solid 2px;
+
+  #logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../assets/logo/logo-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .links {
+    // background-color: bisque;
+    width: 50%;
+    height: 42px;
+    align-self: center;
+    display: flex;
+    .nav-white {
+      color: $site-white;
+    }
+    a,
+    p {
+      text-decoration: none;
+      margin: auto;
+      font-family: Gill;
+    }
+    p {
+      color: $site-blue;
+    }
+  }
+}

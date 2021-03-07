@@ -1,0 +1,73 @@
+footer {
+  background-color: $site-blue;
+  min-width: 100%;
+  max-width: 1280px;
+  height: 100px;
+  padding: 0 25px;
+  .footmargin {
+    margin: 0 auto;
+    width: 980px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .logo {
+    width: 92px;
+    height: 42px;
+  }
+  #white-logo {
+    background-image: url(../assets/logo/logo-white.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  h1 {
+    margin: 0 auto;
+    font-family: Gill;
+    color: $site-white;
+    font-size: 12px;
+    font-weight: normal;
+    align-self: center;
+  }
+  .socials {
+    height: 23px;
+    width: 114px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: center;
+    div {
+      height: 23px;
+      width: 23px;
+    }
+    #fb {
+      background-image: url(../assets/logo/facebookWHT.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    #insta {
+      background-image: url(../assets/logo/instagramWHT.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    #tw {
+      background-image: url(../assets/logo/twitterWHT.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    min-width: 100%;
+    .footmargin {
+      width: 95%;
+    }
+  }
+}
